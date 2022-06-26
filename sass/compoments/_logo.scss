@@ -1,0 +1,24 @@
+.logo {
+    margin-right: 93px;
+ }
+ .logo-first {
+ font-family: var(--secondary-font);
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 1.19;
+ letter-spacing: 0.03em;
+ color:var(--accent-colour);
+ }
+ 
+ .logo-second {
+ font-family: var(--secondary-font);
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 1.19;
+ letter-spacing: 0.03em;
+ color: var(--colour-black);
+ }
+
+.logo-background-dark {color: var(--colour-white);}
+.logo-background-white {color:var(--colour-black);}
+
