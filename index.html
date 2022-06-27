@@ -17,7 +17,7 @@
             <nav class="page-nav">
                 <a class="logo link" href=""><span class="logo__left-side">Web</span><span class="logo__right-side">Studio</span> </a>
                 <ul class="menu list">
-                    <li class="menu__item"><a class="menu__link link main-page" href="">Студия</a></li>
+                    <li class="menu__item"><a class="menu__link link menu__link_active" href="">Студия</a></li>
                     <li class="menu__item"><a class="menu__link link" href="./portfolio.html">Портфолио</a></li>
                     <li class="menu__item"><a class="menu__link link" href="">Контакты</a></li>
                 </ul>
@@ -32,7 +32,7 @@
         <!-- HERO -->
         <section class="hero">
            <div class="container hero-container"> 
-             <h1 class="hero-title">Эффективные решения для вашего бизнеса </h1>
+             <h1 class="hero__title">Эффективные решения для вашего бизнеса </h1>
              <button class="modal-btn" type="button" data-modal-open>Заказать услугу</button>  
            </div>          
         </section>
@@ -41,35 +41,39 @@
             <div class="container"> 
                 <h2 class="visually-hidden">Преимущества</h2>
                 <ul class="advantages-list list">
-                    <li class="advantages-card">
-                        <div class="advantages-icon-item">
-                            <svg class="advantages-icon" width="70" height="70" > <use href="./img/icons.svg#icon-antenna-1"> </use></svg>
+                    <li class="advantages-list__card">
+                        <div class="advantages-list__item">
+                            <svg class="advantages-list__icon" width="70" height="70" > <use href="./img/icons.svg#icon-antenna-1"> </use></svg>
                         </div>
-                        <h3 class="advantages-title">Внимание к деталям</h3>
-                        <p class="advantages-descriptions">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <h3 class="advantages-list__title">Внимание к деталям</h3>
+                        <p class="advantages-list__descriptions">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li class="advantages-card">
-                        <div class="advantages-icon-item"> 
-                            <svg class="advantages-icon" width="70" height="70" > 
+
+                    <li class="advantages-list__card">
+                        <div class="advantages-list__item"> 
+                            <svg class="advantages-list__icon" width="70" height="70" > 
                             <use href="./img/icons.svg#icon-clock-1"></use></svg> 
                         </div>
-                        <h3 class="advantages-title">Пунктуальность</h3>
-                        <p class="advantages-descriptions">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <h3 class="advantages-list__title">Пунктуальность</h3>
+                        <p class="advantages-list__descriptions">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li class="advantages-card">
-                        <div class="advantages-icon-item">
-                            <svg class="advantages-icon" width="70" height="70" > <use href="./img/icons.svg#icon-diagram-1"> </use></svg>
+
+                    <li class="advantages-list__card">
+                        <div class="advantages-list__item">
+                            <svg class="advantages-list__icon" width="70" height="70" > <use href="./img/icons.svg#icon-diagram-1"> </use></svg>
                         </div>
-                        <h3 class="advantages-title">Планирование</h3>
-                        <p class="advantages-descriptions">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <h3 class="advantages-list__title">Планирование</h3>
+                        <p class="advantages-list__descriptions">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li class="advantages-card">
-                        <div class="advantages-icon-item">
-                            <svg class="advantages-icon" width="70" height="70" > <use href="./img/icons.svg#icon-astronaut-1"> </use></svg>
+
+                    <li class="advantages-list__card">
+                        <div class="advantages-list__item">
+                            <svg class="advantages-list__icon" width="70" height="70" > <use href="./img/icons.svg#icon-astronaut-1"> </use></svg>
                         </div>
-                        <h3 class="advantages-title">Современные технологии</h3>
-                        <p class="advantages-descriptions">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <h3 class="advantages-list__title">Современные технологии</h3>
+                        <p class="advantages-list__descriptions">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
+
                 </ul>
             </div>
         </section>
@@ -78,24 +82,24 @@
             <div class="container"> 
                 <h2 class="section-descriprion">Чем мы занимаемся</h2>
                 <ul class="about-us-list list">
-                    <li class="about-us-card">
-                        <div class="about-us-img-wrapper">
-                        <img class="about-us-item" src="./img/img-min.png" alt="Разметка кода" width="370" height="294">
-                        <p class="about-us-item-overlay">Десктопные приложения</p>
+                    <li class="about-us__card">
+                        <div class="about-us__img-wrapper">
+                        <img class="about-us__item" src="./img/img-min.png" alt="Разметка кода" width="370" height="294">
+                        <p class="about-us__item-overlay">Десктопные приложения</p>
                         </div> 
                     </li>
                       
-                    <li class="about-us-card">
-                        <div class="about-us-img-wrapper">
-                            <img class="about-us-item" src="./img/img-1-min.png" alt="Стили сайта" width="370" height="294">
-                            <p class="about-us-item-overlay">Мобильные приложения</p>
+                    <li class="about-us__card">
+                        <div class="about-us__img-wrapper">
+                            <img class="about-us__item" src="./img/img-1-min.png" alt="Стили сайта" width="370" height="294">
+                            <p class="about-us__item-overlay">Мобильные приложения</p>
                         </div>
                     </li>
                    
-                    <li class="about-us-card">
-                        <div class="about-us-img-wrapper">
-                            <img class="about-us-item" src="./img/img-2-min.png" alt="Цветоподбор" width="370" height="294">
-                            <p class="about-us-item-overlay">Дизайнерские решения</p>       
+                    <li class="about-us__card">
+                        <div class="about-us__img-wrapper">
+                            <img class="about-us__item" src="./img/img-2-min.png" alt="Цветоподбор" width="370" height="294">
+                            <p class="about-us__item-overlay">Дизайнерские решения</p>       
                         </div>
                     </li>
                 </ul>  
@@ -258,15 +262,17 @@
     <footer class="footer">
         <div class="container footer-size"> 
             <div class="footer-left-side"> 
-             <a class="link fii" href=""> <span class="logo__left-side">Web</span><span class="logo__right-side logo-background-dark">Studio</span> </a>
+             <a class="logo link" href=""> <span class="logo__left-side">Web</span><span class="logo__right-side logo_background_dark">Studio</span> </a>
              <address>
                 <ul class="footer-info list">
                   <li class="footer-li">
                     <a class="footer-address link" href="https://goo.gl/maps/US6K8y8bepEvWujB8" target="_blank"  rel="noopener noreferrer" >г. Киев, пр-т Леси Украинки, 26</a>
                   </li>
+
                   <li class="footer-li">
                     <a class="footer-contact link" href="tel:+380991111111">+38 099 111 11 11</a>
                   </li>
+
                   <li class="footer-li">
                     <a class="footer-contact link" href="mailto:info@example.com">info@example.com</a>
                   </li>

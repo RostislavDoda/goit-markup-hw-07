@@ -10,16 +10,16 @@ margin-left: -30px;
 margin-top: -30px;
 }
 
-.about-us-card {
+.about-us__card {
     flex-basis: calc((100% - 90px) / 3);
     margin-left: 30px;
     margin-top: 30px;
 }
-.about-us-img-wrapper {
+.about-us__img-wrapper {
     position: relative;
 }
 
-.about-us-item-overlay {
+.about-us__item-overlay {
 position: absolute;
 bottom: 0px;
 left: 0px;
