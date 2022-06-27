@@ -94,9 +94,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 .contact-form-checkbox-label {
-display: flex;
-justify-content: center;
-align-items: center;
+@extend %flex-align;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;

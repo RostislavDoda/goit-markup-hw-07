@@ -21,7 +21,7 @@ display: flex;
 }
 
 
-.menu-item {
+.menu__item {
     position: relative;
 
     &:not(:last-child) {
@@ -29,12 +29,12 @@ display: flex;
     }
 }
 
-.contacts {
+.header-contacts {
  display: flex;  margin-left: auto; }
 
-.mail-link {margin-right:50px;}
+.header-contacts__mail-item {margin-right:50px;}
 
-.menu-link {
+.menu__link {
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -57,14 +57,12 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     bottom: -32px;
 }
 
-.header-contact {
+.header-contacts__link {
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--colour-contacts);
-display: flex;
-justify-content: center;
-align-items: center;
+@extend %flex-align;
 fill: var(--colour-contacts);
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -74,13 +72,13 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.
     color:var(--accent-colour);}
 }
 
-.phone_svg {
+.header-contacts__phone-icon {
     width: 10px;
     height: 16px;
     margin-right: 10px;
 }
 
-.mail_svg {
+.header-contacts__mail-icon {
     width: 16px;
     height: 12px;
     margin-right: 10px;

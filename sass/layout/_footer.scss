@@ -35,9 +35,7 @@ color: rgba(255, 255, 255, 0.6);
 {margin-right: 10px;}
 
 
-.footer-social-list-link {display: flex;
-    justify-content: center;
-    align-items: center;
+.footer-social-list-link {@extend %flex-align;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -102,9 +100,7 @@ margin-bottom: 20px;
 
 
 .subscribe-form-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-align;
 width: 200px;
 height: 50px;
 background: #2196F3;
